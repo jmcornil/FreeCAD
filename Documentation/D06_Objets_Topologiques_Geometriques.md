@@ -285,7 +285,7 @@ avec les valeurs par défaut de l'atelier *Part*.
     ````
 
 Intéressons-nous maintenant à la génératrice colorée en vert.
-  <img src="img/D06_Img_Cone_02.png" alt="Cone" style="height:300px; float:right; margin:20px 0px 20px 20px;">
+  <img src="img/D06_Img_Cone_02.png" alt="Cone"  height="300" align="right">
 
 -   Dans mon cas, je la vois s'afficher 
     dans la barre d'état comme *Edge2*, et je le récupère donc avec:
@@ -327,7 +327,7 @@ Si l'on coupe le cône par un plan qui n'est pas
 orthogonal à son axe de symétrie, on obtient une ellipse ou une
 hyperbole (voire exceptionnellement une parabole) suivant l'orientation du
 plan.
-<img src="img/D06_Img_Cone_03.png" alt="Cone" style="height:300px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_03.png" alt="Cone"  height="300" align="right">
 
 - Si, comme ci-contre l'ellipse s'affiche en tant que *Edge1*, 
     on récupère l'objet topologique par:
@@ -366,7 +366,7 @@ retourne une référence à une surface la contenant,
 que *FreeCAD* traite comme une surface paramétrée, 
 les paramètres étant appelés <span class="py_var">U</span> 
 et <span class="py_var">V</span>.
-<img src="img/D06_Img_Cone_04.png" alt="Cone" style="height:300px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_04.png" alt="Cone"  height="300" align="right">
 
 Prenons encore l'exemple du (tronc de) cône défini avec
 les valeurs par défaut de l'atelier *Part*.
@@ -423,7 +423,7 @@ Faisons la même chose avec la face supérieure de ce
 cône, en vert sur le dessin ci-contre. 
 Dans mon cas,elle s'affiche dans
 la barre d'état comme *Face2.*
-<img src="img/D06_Img_Cone_05.png" alt="Cone" style="height:300px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_05.png" alt="Cone" height="300" align="right">
 
 -   Je le récupère donc avec :
     ```` python
@@ -516,7 +516,7 @@ def trace_isoline(body_name, face_number, nb_curves=10):
 On peut utiliser cette fonction pour tracer ces courbes coordonnées sur
 la surface verte d'un cône de nom *Cone* obtenu avec l'atelier
 *Part*. Comme cette surface s'affiche en tant que *Face1*, on tape :
-<img src="img/D06_Img_Cone_06.png" alt="Cone" style="width:250px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_06.png" alt="Cone"  width="250" align="right">
 ```` python
 >>> trace_isoline('Cone',1)
 ````
@@ -534,7 +534,7 @@ obtenir les courbes coordonnées à *U* et à* V
 ```` python
 >>> trace_isoline('Cone',2)***
 ````
-<img src="img/D06_Img_Cone_07.png" alt="Cone" style="width:250px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_07.png" alt="Cone"  height="280" align="right">
 
 on obtient le quadrillage ci-contre, qui correspond bien au domaine
 donné par le *ParameterRange* :
@@ -552,7 +552,7 @@ Circle (Radius : 4, Position : (0, 0, 10), Direction : (0, 0, 1))
 ````
 
 **Remarque** Dans un cas comme celui de droite, où
-<img src="img/D06_Img_Cone_08.png" alt="Cone" style="width:200px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_Cone_08.png" alt="Cone"  width="250" align="right">
 -   l'intersection du plan avec le cône est une hyperbole,
 -   la génératrice initiale du cône est en dessous,
 
@@ -572,7 +572,7 @@ le *OuterWire* possède trois composantes, ce qui n'est pas
 
 Regardons le cas de la face verte du loft ci-contre
 réalisé entre un rectangle du plan *z=0* et un cercle du plan *z=50*.
-<img src="img/D06_Img_B_Spline_01.png" alt="B_Spline" style="width:200px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_B_Spline_01.png" alt="B_Spline" width="200" align="right">
 
 Comme elle s'affiche en tant que *Face6*, je pose :
 ```` python
@@ -588,7 +588,7 @@ qu'on les prenne sur l'objet topologique
 >>> c.bounds() , f.ParameterRange***
 (0.0, 62.340035, 0.0, 1.0) , 0.0, 62.340035, 0.0, 1.0)
 ````
-<img src="img/D06_Img_B_Spline_02.png" alt="B_Spline" style="width:200px; float:right; margin:20px 0px 20px 20px;">
+<img src="img/D06_Img_B_Spline_02.png" alt="B_Spline"  width="200" align="right">
 
 Pour visualiser ce paramétrage, on peut écrire :
 ```` python
