@@ -241,7 +241,7 @@ Prenons l'exemple du (tronc de) cône défini
 avec les valeurs par défaut de l'atelier *Part*.
 
 - Commençons par récupérer la *Shape* de l'objet :
-   <img src="img/D06_Img_Cone_01.png" alt="Cone" height="300">
+   <img src="img/D06_Img_Cone_01.png" alt="Cone" height="300" align="right">
   ```` python
   >>> obj_sh = App.ActiveDocument.Cone.Shape
   ````
