@@ -6,25 +6,20 @@
 
 <!-- TOC -->
 
-- [1. Topological and geometric sub-objects](#1-sous-objets-topologiques-et-g%C3%A9om%C3%A9triques)
+- [1. Topological and geometric sub-objects](#1-topological-and-geometric-sub-objects)
     - [1.1. Introduction](#11-introduction)
-        - [1.1.1. General](#111-g%C3%A9n%C3%A9ralit%C3%A9s)
-        - [1.1.2. Put into practice](#112-mise-en-pratique)
-    - [1.2. Faces, Wires, Edges and Vertices](#12-faces-wires-edges-et-vertices)
-    - [1.3. Geometric sub-objects](#13-sous-objets-g%C3%A9om%C3%A9triques)
-        - [1.3.1. Support of a Vertex (Point)](#131-support-dun-vertex-point)
-        - [1.3.2. Support of an Edge (Curve)](#132-support-dun-edge-curve)
-        - [1.3.3. Support of a Face (Surface)](#133-support-dune-face-surface)
-    - [1.4. Examples of use](#14-exemples-dutilisation)
-        - [1.4.1. Coordinate curves of a surface](#141-courbes-coordonn%C3%A9es-dune-surface)
-        - [1.4.2. Example with B-Splines](#142-exemple-avec-des-b-spline)
-    - [1.5. And the reverse: from simple to complex?](#15-et-linverse%C2%A0-du-simple-au-complexe)
-    - [1.6. Material to sort](#16-mat%C3%A9riel-%C3%A0-trier)
-        - [1.6.1. The toShape (...) function](#161-la-fonction-toshape)
-        - [1.6.2. Selection](#162-selection)
-        - [1.6.3. B- Spline](#163-b--spline)
-        - [1.6.4. Open-Cascade](#164-open-cascade)
-        - [1.6.5. Various](#165-divers)
+        - [1.1.1. General](#111-general)
+        - [1.1.2. Put into practice](#112-put-into-practice)
+    - [1.2. Faces, Wires, Edges and Vertices](#12-faces-wires-edges-and-vertices)
+    - [1.3. Geometric sub-objects](#13-geometric-sub-objects)
+        - [1.3.1. Support of a Vertex (Point)](#131-support-of-a-vertex-point)
+        - [1.3.2. Support of an Edge (Curve)](#132-support-of-an-edge-curve)
+        - [1.3.3. Support of a Face (Surface)](#133-support-of-a-face-surface)
+    - [1.4. Examples of use](#14-examples-of-use)
+        - [1.4.1. Coordinate curves of a surface](#141-coordinate-curves-of-a-surface)
+        - [1.4.2. Example with B-Splines](#142-example-with-b-splines)
+    - [1.5. And the reverse: from simple to complex?](#15-and-the-reverse-from-simple-to-complex)
+    - [1.6. Material to sort](#16-material-to-sort)
 
 <!-- /TOC -->
 
@@ -524,7 +519,7 @@ Conversely, [on this page](https://wiki.freecadweb.org/index.php?title=Topologic
 <details>
 </details>
 
-### 1.6.1. The toShape (...) function
+$ ### 1.6.1. The toShape (...) function
 
 I shelled the function in Curve2dPyImp.cpp
 
@@ -536,7 +531,7 @@ toShape (...) method of Part.Plane instance
 
 Return the shape for the geometry.
 
-# I shelled the function in Curve2dPyImp.cpp
+$# I shelled the function in Curve2dPyImp.cpp
 
 PyArg_ParseTuple ()
 
@@ -562,13 +557,13 @@ Returns true on success; on failure, it returns false and raises the appropriate
 
 <a href="#table_of_content">Back Table of contents</a>
 
-### 1.6.2. Selection
+$ ### 1.6.1. Selection
 
 See the script on [this page](https://wiki.freecadweb.org/Macro_SimpleProperties) about the selection
 
 See also [https://wiki.freecadweb.org/Selection_API](https://wiki.freecadweb.org/Selection_API) to distinguish between getSelection and getSelectionEx
 
-### 1.6.3. B- Spline
+$ ### 1.6.2. B- Spline
 
 [A little theory](https://www.math.univ-paris13.fr/~basdevan/Licence/B-Spline.pdf) on Bézier curves and the B-spline
 
@@ -596,7 +591,7 @@ See also [https://wiki.freecadweb.org/Selection_API](https://wiki.freecadweb.org
 
 [surface flattening](https://forum.freecadweb.org/viewtopic.php?f=8&t=18010)
 
-### 1.6.4. Open-Cascade
+$ ### 1.6.1. Open-Cascade
 
 [https://dev.opencascade.org/doc/refman/html/index.html](https://dev.opencascade.org/doc/refman/html/index.html)
 
@@ -607,7 +602,7 @@ See also [https://wiki.freecadweb.org/Selection_API](https://wiki.freecadweb.org
 
 [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html)
 
-### 1.6.5. Various
+$### 1.6.4. Various
 
 In [this post from Chris_G](https://forum.freecadweb.org/viewtopic.php?f=22&t=52989#p455325) , we find: *Second important thing: get a clear understanding of BREP (Boundary Representation) used by OpenCascade to create geometric objects. It is separated into 2 levels:*
 
