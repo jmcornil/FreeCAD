@@ -1,0 +1,16 @@
+.py_var{
+    color:red;
+}
+.py_fnc{
+    color:blue;
+}
+.py_atr{
+    color:green;
+}
+
+.fr_obj{
+    font-weight: 700;
+    color:cyan;
+}
+
+
