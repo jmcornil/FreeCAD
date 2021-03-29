@@ -1,5 +1,6 @@
 <link href="css/JMC_FreeCAD_Doc.css" rel="stylesheet"></link> 
 
+
 <span id="table_of_content"> Table des matières </span>
 <!-- TOC -->
 
@@ -17,11 +18,6 @@
         - [1.4.2. Exemple avec des B-Spline](#142-exemple-avec-des-b-spline)
     - [1.5. Et l'inverse : du simple au complexe?](#15-et-linverse -du-simple-au-complexe)
     - [1.6. Matériel à trier](#16-matériel-à-trier)
-        - [1.6.1. La fonction toShape(...)](#161-la-fonction-toshape)
-        - [1.6.2. Selection](#162-selection)
-        - [1.6.3. B- Spline](#163-b--spline)
-        - [1.6.4. Open-Cascade](#164-open-cascade)
-        - [1.6.5. Divers](#165-divers)
 
 <!-- /TOC -->
 # 1. Sous-objets topologiques et géométriques
@@ -612,6 +608,7 @@ Pour visualiser ce paramétrage, on peut écrire&nbsp;:
 
 <a href="#table_of_content">Retour Table des matières</a>
 
+
 ## 1.5. Et l'inverse : du simple au complexe?
 
 Inversement, [sur cette
@@ -640,7 +637,7 @@ objets topologiques.
 
 <details>
 
-### 1.6.1. La fonction toShape(...) 
+$### 1.6.1. La fonction toShape(...) 
 
 J'ai décortiqué la fonction dans Curve2dPyImp.cpp
 
@@ -682,7 +679,7 @@ appropriate exception.
 <a href="#table_of_content">Retour Table des matières</a>
 
 
-### 1.6.2. Selection
+$### 1.6.2. Selection
 
 Voir le script de [cette
 page](https://wiki.freecadweb.org/Macro_SimpleProperties) sur la
@@ -691,7 +688,7 @@ sélection
 Voir aussi <https://wiki.freecadweb.org/Selection_API> pour distinguer
 entre getSelection et getSelectionEx
 
-### 1.6.3. B- Spline
+$### 1.6.3. B- Spline
 
 [Un peu de
 théorie](https://www.math.univ-paris13.fr/~basdevan/Licence/B-Spline.pdf)
@@ -723,7 +720,7 @@ Spline](https://forum.freecadweb.org/viewtopic.php?t=18010&start=40)
 [surface
 flattening](https://forum.freecadweb.org/viewtopic.php?f=8&t=18010)
 
-### 1.6.4. Open-Cascade
+$### 1.6.4. Open-Cascade
 
 <https://dev.opencascade.org/doc/refman/html/index.html>
 
@@ -736,7 +733,7 @@ flattening](https://forum.freecadweb.org/viewtopic.php?f=8&t=18010)
 
 <https://dev.opencascade.org/doc/overview/html/occt__tutorial.html>
 
-### 1.6.5. Divers
+$### 1.6.5. Divers
 
 Dans [ce post de
 Chris_G](https://forum.freecadweb.org/viewtopic.php?f=22&t=52989#p455325),
