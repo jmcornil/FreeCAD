@@ -8,7 +8,7 @@
 
 - [1. Topological and geometric sub-objects](#1-sous-objets-topologiques-et-g%C3%A9om%C3%A9triques)
     - [1.1. Introduction](#11-introduction)
-        - [1.1.1. Généralités](#111-g%C3%A9n%C3%A9ralit%C3%A9s)
+        - [1.1. Introduction](https://gitlocalize.com/repo/5973/en/Documentation/fr/D06_Objets_Topologiques_Geometriques.md#11-introduction)
         - [1.1.2. Put into practice](#112-mise-en-pratique)
     - [1.2. Faces, Wires, Edges and Vertices](#12-faces-wires-edges-et-vertices)
     - [1.3. Geometric sub-objects](#13-sous-objets-g%C3%A9om%C3%A9triques)
